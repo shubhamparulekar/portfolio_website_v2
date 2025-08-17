@@ -29,6 +29,12 @@
         <!-- Fancybox-->
         <link rel="stylesheet" href="assets/plugins/css/jquery.fancybox.min.css">
         
+        <!-- Vercel Analytics-->
+        <script>
+        window.va = window.va || function () { (window.va.q = window.va.q || []).push(arguments); };
+        </script>
+        <script src="/_vercel/insights/script.js" defer></script>
+
         <!-- Custom CSS-->
         <link rel="stylesheet" href="assets/css/styles.css">
         <link rel="stylesheet" href="assets/css/responsive.css">
@@ -979,55 +985,7 @@
     <script type="text/javascript" src="demo/demo.js"></script>
         <div class="demo-style-switch" id="switch-style">
     <a id="toggle-switcher" class="switch-button"><i class="fa fa-snowflake-o fa-spin"></i></a>
-    <!-- <div class="switched-options">
-    <ul>
-        <li class="mh-demo-styles"> 
-            <h4>Dark Mode </h4>
-            <ul>
-                <li>
-                    <a href="index.html"> <img src="assets/images/index.png" alt="" class="img-fluid"></a>
-                </li>
-            </ul>
-        </li>
-        <li class="mh-demo-styles"> 
-            <h4>Light Mode </h4>
-            <ul>
-                <li>
-                    <a href="index-w.html"> <img src="assets/images/index-w.png" alt="" class="img-fluid"></a>
-                </li>
-            </ul>
-        </li>                 
-        
-        <li class="mh-demo-styles"> 
-            
-        </li>                
-    </ul>
-
-    </div> -->
     </div>
-<!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
-
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-analytics.js"></script>
-
-<script>
-  // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyBgIKRv7shDz0WhW-I_l3-6EhiRSyNN--c",
-    authDomain: "shubhamdineshparulekar.firebaseapp.com",
-    databaseURL: "https://shubhamdineshparulekar.firebaseio.com",
-    projectId: "shubhamdineshparulekar",
-    storageBucket: "shubhamdineshparulekar.appspot.com",
-    messagingSenderId: "328806752665",
-    appId: "1:328806752665:web:49c0c39ae7e00c81d9f308",
-    measurementId: "G-6G7J9H8G1E"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
-</script>
 </body>
 
 </html>
