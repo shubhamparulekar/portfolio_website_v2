@@ -2701,16 +2701,18 @@ RESUME BUTTON
     margin-left: 15px;
 }
 .mh-header .navbar-nav .resume-button a.resume-btn {
-    border: 1px solid #51ddba !important;
-    border-radius: 4px;
-    padding: 10px 10px;
+    border: 3px solid #ffffff !important;
+    border-radius: 5px;
+    padding: 5px 5px;
     transition: all 0.3s ease;
     display: inline-block;
-    color: #51ddba !important;
+    color: #ffffff;
+
 }
+    
 .mh-header .navbar-nav .resume-button a.resume-btn:hover {
-    background-color: #51ddba;
-    color: #000;
+    background-color:  #0bceaf;
+    /* color: #000; */
 }
 
 /*
